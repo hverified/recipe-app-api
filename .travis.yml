@@ -3,4 +3,4 @@ python:
   - "3.8.5"
 
 script:
-  - python manage.py test
+  - cd app && python manage.py test
